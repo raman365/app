@@ -1,0 +1,22 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project /Users/ramanoraha/Desktop/app/ios/app.xcodeproj -configuration Debug -scheme app -destination id=33103203-B5F8-49A1-B8E0-A2D7AB0AC899
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Prepare packages
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'app' in project 'app' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+Build description signature: b6d9cc1cc2c50b4f8fa1937dbc44fd3e
+Build description path: /Users/ramanoraha/Library/Developer/Xcode/DerivedData/app-hfcipkwbtdndaobrkxazzmzpxacj/Build/Intermediates.noindex/XCBuildData/b6d9cc1cc2c50b4f8fa1937dbc44fd3e.xcbuilddata
+
+/Users/ramanoraha/Desktop/app/ios/Pods/Target Support Files/Pods-app/Pods-app.debug.xcconfig:1:1: error: unable to open configuration settings file
+warning: Run script build phase 'Start Packager' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'app' from project 'app')
+warning: Run script build phase 'Bundle React Native code and images' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'app' from project 'app')
